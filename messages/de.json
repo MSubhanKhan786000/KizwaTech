@@ -1,0 +1,90 @@
+{
+  "index": {},
+  "hero": {
+    "welcome": "Willkommen bei",
+    "trusted": "Partner für Ihre digitale Reise",
+    "get-started": "Legen Sie los",
+    "our-services": "Unser Service"
+  },
+  "header": {
+    "home": "Home",
+    "aboutUs": "Über uns",
+    "productsServices": "Services",
+    "testimonials": "Kundenstimmen",
+    "consultUs": "Beratung"
+  },
+  "about": {
+    "heading": "Your Go To Technology Partner",
+    "content": "KizwaTech  Experts GmbH Ihr Partner für erstklassige Remote-Technikteams und maßgeschneiderte Softwarelösungen. Wir sind auf Business Processing Outsourcing Staff Augmentation Cyber Security Cloud Computing Softwareentwicklung und vieles mehr spezialisiert. Verbessern Sie Ihre Effizienz und Sicherheit ohne die Nachhaltigkeit außen vor zu lassen. Erreichen Sie Ihre strategischen Ziele präzise und kostengünstig. Schaffen Sie mit uns Innovationen über Grenzen hinaus.",
+    "service1": {
+      "title": "Stay Connected",
+      "description": "Wir gestalten die Zukunft mit fortschrittlichen Technologie Lösungen die auf Ihre Bedürfnisse zugeschnitten sind."
+    },
+    "service2": {
+      "title": "Encourage Participation",
+      "description": "Wir stärken Ihre Geschäftsstrateie mit Insights unserer Experten und umfassenden Technologie Roadmaps."
+    },
+    "service3": {
+      "title": "Build Connections",
+      "description": "Mit unserem umfassenden IT-Support und Dienstleistungen sorgen wir für einen reibungslosen Betrieb."
+    }
+  },
+  "services": {
+    "heading": {
+      "part1": "Wir bieten",
+      "part2": "Spezialisten & Services"
+    },
+    "content": "Wir bieten eine breite Palette an Technologie Lösungen die den Erfolg Ihres Unternehmens steigern. Entdecken Sie wie wir Ihnen helfen können Ihre Ziele zu erreichen.",
+    "service1": "Business Process Outsourcing",
+    "service2": "Staff Augmentation",
+    "service3": "Cyber Security Solutions",
+    "service4": "Customized Software Development",
+    "service5": "Mobile Application Development",
+    "service6": "Cloud Computing"
+  },
+  "whyUs": {
+    "title": "Wir bieten alle Arten von Dienstleistungen in Form von Software an",
+    "description": "KizwaTech  Experts GmbH entwickelt mit dem Partner SWK Technologies benutzerfreundliche Lösungen.",
+    "option1": {
+      "title": "Thought leadership",
+      "content": "Wir nutzen unser Fachwissen in der Technologieintegration um Branchentrends zu erkennen und unsere Führungsposition weiter auszubauen."
+    },
+    "option2": {
+      "title": "Modernized prospecting",
+      "content": "Wir nutzen KI und Automatisierungstechnologien um eine effiziente und systematische Suche nach Neukunden zu gewährleisten. Unsere Online Präsens erhöht die Sichtbarkeit. Unsere Partnerschaften und Empfehlungen erweitern unsere Reichweite."
+    },
+    "option3": {
+      "title": "Showcasing success",
+      "content": "Wir heben die Erfolgsgeschichten unserer Kunden hervor. Unsere gemeinsamen Ergebnisse unterstreichen die greifbaren Vorteile unserer Dienstleistung. Wir nutzen auch Vorher-/Nachher-Szenarien und Kundenempfehlungen um Ihren und unseren Erfolg weiter zu illustrieren."
+    }
+  },
+  "testimonials": {
+    "heading": "Testimonials",
+    "subHeading": "Meinungen über uns",
+    "description": "Wir sorgen für einen reibungslosen Betrieb mit unserem umfassenden IT-Support und Dienstleistungen.",
+    "letsGetStarted": {
+      "heading": "Lassen Sie uns in Kontakt treten",
+      "description": "Bei KizwaTech  Experts sind wir leidenschaftlich daran interessiert Veränderungen durch Technologie voranzutreiben. Egal ob potenzieller Kunde Partner oder Teammitglied wir laden Sie ein sich uns auf unserer Reise zur Gestaltung der digitalen Innovation anzuschließen.",
+      "action": "Beratung"
+    }
+  },
+  "footer": {
+    "address": "Musaffah 4, Abu Dhabi, VAE",
+    "home": "Home",
+    "aboutUs": "Über uns",
+    "productsServices": "Produkte & Services",
+    "testimonials": "Kundenstimmen",
+    "consult": "Beratung",
+    "subscribeNewsLetter": "Newsletter anmelden",
+    "enterEmail": "Geben Sie Ihre E-Mail Adresse an",
+    "subscribe": "Anmelden",
+    "copyright": "Copyright 2024 KizwaTech  Experts GmbH Alle Rechte vorbehalten"
+  },
+  "companies": {
+    "heading": {
+      "part1": "The best companies trust",
+      "part2": "KizwaTech  Experts"
+    },
+    "content": "Trusted by more than 2500+ companies around the world"
+  }
+}

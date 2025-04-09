@@ -1,0 +1,90 @@
+{
+  "index": {},
+  "hero": {
+    "welcome": "Welcome to",
+    "trusted": "Trusted partner for your Digital Journey",
+    "get-started": "Get Started",
+    "our-services": "Our Services"
+  },
+  "header": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "productsServices": "Services",
+    "testimonials": "Testimonials",
+    "consultUs": "Consult Us"
+  },
+  "about": {
+    "heading": "Your Go To Technology Partner",
+    "content": "KizwaTech  Experts, your partner for elite remote technical teams and bespoke software solutions. Specializing in Business Processing Outsourcing, Staff Augmentation, Cyber Security Solutions, Cloud Computing, Software Development and more, we enhance efficiency, safety, and sustainability. Achieve your strategic goals with precision and cost-effectiveness. Innovate beyond limits with us.",
+    "service1": {
+      "title": "Stay Connected",
+      "description": "Pioneering the future with cutting-edge technology solutions tailored to your business needs."
+    },
+    "service2": {
+      "title": "Encourage Participation",
+      "description": "Empowering your business strategy with expert insights and comprehensive technology roadmaps."
+    },
+    "service3": {
+      "title": "Build Connections",
+      "description": "Ensuring seamless operations with our full spectrum of managed IT support and services."
+    }
+  },
+  "services": {
+    "heading": {
+      "part1": "We Provide",
+      "part2": "Specialists & Services"
+    },
+    "content": "We provide a wide range of technological solutions designed to enhance the success of your business. Discover how we can help you achieve your goals.",
+    "service1": "Business Process Outsourcing",
+    "service2": "Staff Augmentation",
+    "service3": "Cyber Security Solutions",
+    "service4": "Custom Software Development",
+    "service5": "Mobile Application Development",
+    "service6": "Cloud Computing"
+  },
+  "whyUs": {
+    "title": "We run all kinds of services in form of software",
+    "description": "SWK Technologies innovates user-friendly solutions, leading with exceptional quality, grateful to clients and stakeholders for trust and support.",
+    "option1": {
+      "title": "Thought leadership",
+      "content": "Leveraging expertise in tech integrations and industry trends to establish our leadership and trustworthiness."
+    },
+    "option2": {
+      "title": "Modernized prospecting",
+      "content": "We use AI and automation for efficient targeting. Our online presence and industry involvement boost visibility. Partnerships and referrals expand our reach."
+    },
+    "option3": {
+      "title": "Showcasing success",
+      "content": "We spotlight our client success stories with case studies, testimonials, and video interviews. Our shared results and metrics underline the tangible benefits of our services. We also present before-and-after scenarios and client endorsements to further illustrate our success."
+    }
+  },
+  "testimonials": {
+    "heading": "Testimonials",
+    "subHeading": "What They Say About Us",
+    "description": "Ensuring seamless operations with our full spectrum of managed IT support and services.",
+    "letsGetStarted": {
+      "heading": "Let’s get in touch",
+      "description": "At KizwaTech  Experts, we're passionate about driving change through technology. Whether you're a potential client, partner, or team member, we invite you to join us on our journey to shape the future of digital innovation.",
+      "action": "Get Started"
+    }
+  },
+  "footer": {
+    "address": "Musaffah 4, Abu Dhabi, UAE",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "productsServices": "Products & Services",
+    "testimonials": "Testimonials",
+    "consult": "Consult Us",
+    "subscribeNewsLetter": "Subscribe to our Newsletter",
+    "enterEmail": "Enter your email",
+    "subscribe": "Subscribe",
+    "copyright": "Copyright 2024 KizwaTech  Experts, All Rights Reserved"
+  },
+  "companies": {
+    "heading": {
+      "part1": "The best companies trust",
+      "part2": "KizwaTech  Experts"
+    },
+    "content": "Trusted by more than 2500+ companies around the world"
+  }
+}
