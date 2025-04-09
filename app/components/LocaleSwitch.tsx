@@ -4,7 +4,7 @@ import { useTransition } from "react";
 import { useLocale } from "next-intl";
 import { useRouter } from "next/navigation";
 
-import { EN_LOCALE, DE_LOCALE } from "app/config";
+import { EN_LOCALE, AR_LOCALE } from "app/config";
 
 export default function LocalSwitcher({
   className = "",
@@ -16,15 +16,18 @@ export default function LocalSwitcher({
   const localActive = useLocale();
 
   const handleClick = () => {
-    const nextLocale = localActive === DE_LOCALE ? EN_LOCALE : DE_LOCALE;
-    startTransition(() => {
-      router.replace(`/${nextLocale}`);
-    });
+    let nextLocale;
+    if (localActive === EN_LOCALE) {
+      nextLocale = AR_LOCALE;
+    } else {
+      nextLocale = EN_LOCALE;
+    }
+    router.replace(`/${nextLocale}`);
   };
 
   return (
     <button onClick={handleClick} className={`text-lg ${className}`}>
-      {localActive === DE_LOCALE ? "EN" : "DE"}
+      {localActive === EN_LOCALE ? "AR" : "EN"}
     </button>
   );
 }

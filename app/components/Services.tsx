@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 
-import { DE_LOCALE, SERVICES } from "@/config";
+import { AR_LOCALE, SERVICES } from "@/config";
 import bg from "@/assets/services-bg.svg";
 
 export default function Services() {
@@ -17,7 +17,7 @@ export default function Services() {
       </div>
       <header
         className={`flex flex-col  gap-4 md:gap-10 items-center mb-10 ${
-          useLocale() === DE_LOCALE ? "md:flex-row-reverse" : "md:flex-row"
+          useLocale() === AR_LOCALE ? "md:flex-row-reverse" : "md:flex-row"
         }`}
       >
         <div className="font-bold text-lg md:text-xl lg:text-3xl xl:text-[40px] w-full">

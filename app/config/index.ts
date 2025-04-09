@@ -47,8 +47,8 @@ export const WHITE = "#fff";
 export const LIGHT_THEME = "light";
 export const DARK_THEME = "dark";
 export const EN_LOCALE = "en";
-export const DE_LOCALE = "de";
-export const LOCALES = [EN_LOCALE, DE_LOCALE];
+export const AR_LOCALE = "ar";
+export const LOCALES = [EN_LOCALE, AR_LOCALE];
 
 export const LOCALES_FOR_DROPDOWN = [
   {
@@ -56,8 +56,8 @@ export const LOCALES_FOR_DROPDOWN = [
     value: EN_LOCALE,
   },
   {
-    label: "German",
-    value: DE_LOCALE,
+    label: "ARABIC",
+    value: AR_LOCALE,
   },
 ];
 
@@ -147,7 +147,7 @@ export const TESTIMONIALS = [
     occupation: "Saudi Arabia",
     image: "https://example.com/images/testimonials/jane-smith.jpg",
     content:
-      "The sales support from the SOFTWIZ KAFE team was remarkable. They were always ready to assist and provided detailed explanations that made the whole process seamless. Their expertise in the field is truly commendable.",
+      "The sales support from the KizwaTech team was remarkable. They were always ready to assist and provided detailed explanations that made the whole process seamless. Their expertise in the field is truly commendable.",
     stars: 5,
   },
   {
@@ -156,7 +156,7 @@ export const TESTIMONIALS = [
     occupation: "USA",
     image: "https://example.com/images/testimonials/ahmed-khan.jpg",
     content:
-      "The Cloud professional service offered by SWK is top-notch. The team is knowledgeable and efficient, and they made sure that the transition to the cloud was smooth and hassle-free for our organization.",
+      "The Cloud professional service offered by KizwaTech is top-notch. The team is knowledgeable and efficient, and they made sure that the transition to the cloud was smooth and hassle-free for our organization.",
     stars: 5,
   },
   {
@@ -165,7 +165,7 @@ export const TESTIMONIALS = [
     occupation: "Turkey",
     image: "https://example.com/images/testimonials/maria-garcia.jpg",
     content:
-      "The technical support from SOFTWIZ KAFE is experienced and reliable. They are quick to respond and always find effective solutions to any issues we encounter. Their dedication to customer satisfaction is evident in their work.",
+      "The technical support from KizwaTech is experienced and reliable. They are quick to respond and always find effective solutions to any issues we encounter. Their dedication to customer satisfaction is evident in their work.",
     stars: 5,
   },
   {
@@ -174,7 +174,7 @@ export const TESTIMONIALS = [
     occupation: "UAE",
     image: "https://example.com/images/testimonials/liu-wei.jpg",
     content:
-      "We have been purchasing hardware systems from SOFTWIZ KAFE and their delivery is always before time. The quality of the products is excellent and their commitment to punctuality has greatly benefited our operations.",
+      "We have been purchasing hardware systems from KizwaTech and their delivery is always before time. The quality of the products is excellent and their commitment to punctuality has greatly benefited our operations.",
     stars: 4,
   },
 ];

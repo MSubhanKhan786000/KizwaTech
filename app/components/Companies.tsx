@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import bg from "@/assets/companies-person.svg";
 import { useLocale, useTranslations } from "next-intl";
-import { DE_LOCALE } from "@/config";
+import { AR_LOCALE } from "@/config";
 
 export default function Companies() {
   const t = useTranslations("companies");
@@ -22,7 +22,7 @@ export default function Companies() {
 
         <div
           className={`z-10 lg:w-[50%] md:w-full text-center ${
-            locale === DE_LOCALE ? "lg:text-right" : "lg:text-left"
+            locale === AR_LOCALE ? "lg:text-right" : "lg:text-left"
           }`}
         >
           <h4 className="font-bold text-2xl md:text-4xl lg:text-[40px] flex flex-col text-heading-light dark:text-heading-dark md:leading-[50px]">

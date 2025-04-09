@@ -5,7 +5,7 @@ import { MdEmail, MdPhone } from "react-icons/md";
 import { useLocale, useTranslations } from "next-intl";
 
 import tleLogo from "@/assets/dark-logo.svg";
-import { DE_LOCALE, EN_LOCALE, HEADER_LINKS, SOCIAL_LINKS } from "@/config";
+import { EN_LOCALE, HEADER_LINKS, SOCIAL_LINKS, AR_LOCALE } from "@/config";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -16,16 +16,9 @@ export default function Footer() {
       <div className="grid gird-cols-1 md:grid-cols-2 mb-5 gap-12 md:gap-20 z-50 md:mb-20 lg:mb-44">
         <div
           className={`flex flex-col items-center md:items-start text-center md:text-left gap-3 ${
-            activeLocale === DE_LOCALE ? "items-end" : "items-start"
+            activeLocale === AR_LOCALE ? "items-end" : "items-start"
           }`}
         >
-          {/* <Image
-            src={tleLogo}
-            alt="KTK"
-            // className="mix-blend-color-burn"
-            width={90}
-            height={40}
-          /> */}
           <div className="flex items-center justify-center md:justify-start">
             {activeLocale === EN_LOCALE && (
               <IoLocationSharp size="25px" color="white" className="mr-1" />
@@ -33,7 +26,7 @@ export default function Footer() {
             <span className="text-[#d9d9d9] text-[16px] max-w-[50%] md:max-w-[80%]">
               {t("address")}
             </span>
-            {activeLocale === DE_LOCALE && (
+            {activeLocale === AR_LOCALE && (
               <IoLocationSharp size="25px" color="white" className="ml-1" />
             )}
           </div>
@@ -45,7 +38,7 @@ export default function Footer() {
             <span className="text-[#d9d9d9] text-[16px]">
               info@KizwaTech.com
             </span>
-            {activeLocale === DE_LOCALE && (
+            {activeLocale === AR_LOCALE && (
               <MdEmail size="25px" color="white" className="ml-1" />
             )}
           </div>
@@ -55,8 +48,8 @@ export default function Footer() {
             )}
 
             <span className="text-[#d9d9d9] text-[16px]">+971-58-628-4432</span>
-            {activeLocale === DE_LOCALE && (
-              <MdEmail size="25px" color="white" className="ml-1" />
+            {activeLocale === AR_LOCALE && (
+              <MdPhone size="25px" color="white" className="ml-1" />
             )}
           </div>
         </div>
@@ -71,20 +64,20 @@ export default function Footer() {
           <Link href="/">{t("consult")}</Link>
         </ul>
 
-        {/* <div className='flex flex-col gap-5'>
-          <h6 className='text-white font-bold text-lg md:text-[20px]'>
-            {t('subscribeNewsLetter')}
+        <div className="flex flex-col gap-5">
+          <h6 className="text-white font-bold text-lg md:text-[20px]">
+            {t("subscribeNewsLetter")}
           </h6>
 
-          <div className='flex gap-3'>
+          <div className="flex gap-3">
             <input
-              type='text'
-              className={`border-none outline-none rounded-md placeholder-black px-5 py-3`}
-              dir={activeLocale === DE_LOCALE ? 'rtl' : 'ltr'}
-              placeholder={t('enterEmail')}
+              type="text"
+              className="border-none outline-none rounded-md placeholder-gray-500 dark:placeholder-white px-5 py-3"
+              dir={activeLocale === AR_LOCALE ? "rtl" : "ltr"}
+              placeholder={t("enterEmail")}
             />
           </div>
-        </div> */}
+        </div>
       </div>
 
       <div className="flex flex-col md:flex-row items-center justify-center md:justify-between w-full gap-5">

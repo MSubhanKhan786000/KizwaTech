@@ -8,12 +8,12 @@ import { RootLayoutProps } from "app/interfaces";
 import { Header } from "app/components";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 export const metadata: Metadata = {
-  title: "KizwaTech ",
+  title: "KizwaTech | Innovative Technology Solutions",
   description:
-    "KizwaTech  Company is your premier partner for innovative technology solutions. From cutting-edge products and services to expert advice and support, we are dedicated to helping you navigate the complexities of the modern tech landscape. Explore our website to learn more about our offerings and how we can assist in achieving your technology goals.",
+    "KizwaTech is your trusted partner for cutting-edge technology solutions, offering expert advice, support, and a range of services to help you navigate the tech landscape.",
   keywords:
-    "Innovative Technology, Technology Solutions, Expert Advice, Technology Support, Cutting-edge Products",
-  authors: { name: "KizwaTech " },
+    "Technology Solutions, Expert Support, IT Consulting, Tech Services, Digital Transformation",
+  authors: { name: "KizwaTech" },
   robots: "index, follow",
 };
 
