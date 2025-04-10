@@ -18,10 +18,10 @@ export default function NavLogo() {
   return (
     <Image
       alt="KTK Logo"
-      src={resolvedTheme === LIGHT_THEME ? DarkModeLogo : DarkModeLogo}
+      src={DarkModeLogo}
       width={220}
       height={61.5}
-      className="w-[70px] dark:w-[85px] dark:p-2 md:w-[70px] lg:w-[80px] xl:w-[100px]"
+      className="w-[70px] dark:w-[85px] md:w-[70px] lg:w-[80px] xl:w-[100px]"
     />
   );
 }
