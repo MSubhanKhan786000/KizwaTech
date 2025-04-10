@@ -1,10 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useTheme } from "next-themes";
-
-import LightModeLogo from "@/assets/Logo.svg";
-import DarkModeLogo from "@/assets/dark-logo.svg";
-import { LIGHT_THEME } from "@/config";
+import Logo from "@/assets/dark-logo.svg";
 import useIsMounted from "app/hooks/useIsMounted";
 
 export default function NavLogo() {
@@ -18,10 +15,10 @@ export default function NavLogo() {
   return (
     <Image
       alt="KTK Logo"
-      src={DarkModeLogo}
+      src={Logo}
       width={220}
       height={61.5}
-      className="w-[70px] dark:w-[85px] md:w-[70px] lg:w-[80px] xl:w-[100px]"
+      className="w-[70px] md:w-[70px] lg:w-[80px] xl:w-[100px]"
     />
   );
 }
